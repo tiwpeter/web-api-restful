@@ -1,0 +1,26 @@
+.image-frame {
+  border: 2px dashed #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 400px; /* ปรับขนาดความกว้างของกรอบ */
+  height: 200px; /* ปรับขนาดความสูงของกรอบ */
+}
+
+.image-preview {
+  flex: 1;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.upload-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

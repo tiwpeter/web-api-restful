@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* แก้ชื่อคุณสมบัติเป็น flex-wrap */
+
+    background-color: rgba(213, 1, 255, 0.555);
+
+    
+      
+}
+
+.nav {
+    height: 69px;
+    width: 100%;
+    background-color: brown;
+}
+
+.content {
+    background-color: aqua;
+    height: 567px;
+    width: 80px;
+
+}
+
+.upload {
+    background-color: turquoise;
+    height: 571px;
+    flex: 7; /* ปรับขนาดเป็น 70% โดยใช้คุณสมบัติ flex */
+}
+
+.imagelist {
+    background-color: blue;
+    height: 540px;
+    flex: 2; /* ปรับขนาดเป็น 20% โดยใช้คุณสมบัติ flex */
+}
+
+.menu {
+    flex-basis: 100%; /* ทำให้เมนูใช้พื้นที่ทั้งหมด */
+}
+
+.image {
+    height: 520px;
+    width: 100%; /* ทำให้รูปภาพใช้พื้นที่ทั้งหมดในความกว้าง */
+}
+
+.rotated-text {
+    transform: rotate(90deg); /* ค่ามุมที่คุณต้องการ, ในที่นี้คือ 45 องศา */
+  }
+  

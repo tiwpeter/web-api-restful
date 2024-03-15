@@ -1,0 +1,89 @@
+
+   /* input*/
+input[type=text] {
+    border: solid 1px red;
+    height: 2.5vw;
+    border-radius: .2rem;
+    margin-bottom: .9rem;
+    width: 90%;
+  }
+  
+  /* สร้างกรอบรูป */
+  .image-frame {
+    border: 2px solid #ddd; /* สีขอบ */
+    padding: 20px; /* ระยะห่างภายใน */
+    text-align: center; /* จัดตำแหน่งภายในตามกลาง */
+  }
+  
+  /* ทำให้รูปมีขอบโค้ง */
+  .rounded-image {
+    border-radius: 50%; /* ทำให้มีขอบโค้ง */
+  }
+
+
+  /*icon*/
+  .custom-file-upload {
+    display: inline-block;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #45a049;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* สามารถเลือกค่าอื่น ๆ ตามต้องการ เช่น space-around, center */
+    align-items: center; /* สามารถเลือกค่าอื่น ๆ ตามต้องการ เช่น flex-start, flex-end */
+  }
+
+  .rotated-text {
+    transform: rotate(90deg); /* ค่ามุมที่คุณต้องการ, ในที่นี้คือ 45 องศา */
+  }
+  
+  /* menu */
+.image{
+    width: 10px; /* กำหนดความกว้างเป็น 300 พิกเซล */
+    height: 20px; /* กำหนดความสูงเป็น 200 พิกเซล */
+    background-color: violet;
+
+        /*กำหนดความห่าง รูปmenu*/
+    margin-bottom: 40px;
+}
+/*icon ตรง menu*/
+.imgicon{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/**********************************************/
+.pop {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* จัด text กลางแนวนอน */
+
+}
+
+
+
+.centered-text {
+  
+  margin-right: 10px; /* ระยะห่างระหว่าง text "ชื่อ" กับ input field */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* จัด text กลางแนวนอน */
+}
+
+.data-type-field{
+  display: flex;
+  align-items: center;
+
+}

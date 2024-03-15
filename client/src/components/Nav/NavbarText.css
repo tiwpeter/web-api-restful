@@ -1,0 +1,77 @@
+/* NavbarText.css */
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+
+  }
+
+
+  /*icon search*/
+  .item-seach{
+
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    margin-left: 30px;
+
+  }
+  /*กล่องพิม*/
+  input[type="text1"] {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 30px; /* ปรับตำแหน่งตามต้องการ */
+    /* ให้ข้อความอยู่ทางขวา */
+
+margin-left: 270px;
+  }
+  /*พระจัน*/
+  .div {
+    display: flex;
+    align-items: center;
+    margin-left: 107px;
+  }
+  
+  /*บ้าน*/
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+
+    margin-left: 270px;
+
+  }
+  
+  /* เพิ่มส่วนนี้เพื่อให้ input และ icon อยู่ตรงกลาง */
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .FontAwesomeIcon{
+    display: grid;
+    grid-template-columns: 1fr auto; /* หรือ auto 1fr; */
+    align-items: center;
+}
+
+/* ให้ icon อยู่ภายใน input */
+.input-group .item-search {
+  margin-right: 0;
+}
+
+/* ให้ input และ icon มีระยะห่างตามต้องการ */
+.input-group input[type="text1"] {
+  margin-right: -200px;
+}

@@ -1,0 +1,61 @@
+.content{
+    border: 2px solid rgb(194, 194, 194);
+    flex-grow: 2;
+    /* สไตล์เพิ่มเติมถ้าต้องการ */
+  }
+
+  .container {
+  }
+
+
+  /**Box*/
+
+  .content{
+    background-color: #ffffff; /* สีขาวธรรมดาในรูปแบบ Hex */
+}
+  /*ขาวเงา    background-color: beige;*/
+
+  .content-menu{
+    border: 2px solid rgb(194, 194, 194);
+    padding: 10px;
+    background-color: #ffffff; /* สีขาวธรรมดาในรูปแบบ Hex */
+  }
+
+  /*Nav Home*/
+  .navmenu{
+    border: 2px solid rgb(194, 194, 194);
+    padding: 20px;
+    background-color: #ffffff; /* สีขาวธรรมดาในรูปแบบ Hex */
+  }
+
+  .Navbar{
+    border: 2px solid rgb(194, 194, 194);
+    padding: 0px;
+    background-color: #ffffff; /* สีขาวธรรมดาในรูปแบบ Hex */
+  }
+
+  .Supernav{
+    border: 2px solid rgb(194, 194, 194);
+    padding: 0px;
+    background-color: #ffffff; /* สีขาวธรรมดาในรูปแบบ Hex */
+  }
+
+
+  .main{
+    border: 2px solid rgb(194, 194, 194);
+
+  }
+
+/* ปรับmenu */
+  .content-menu{
+    display: flex;
+    gap: 10px;
+  }
+
+  .edit{
+    margin-left: 130px;
+  }
+
+  .ooo{
+    margin-right: 0px;
+  }

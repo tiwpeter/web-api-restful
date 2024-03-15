@@ -1,0 +1,29 @@
+จัดการเส้นทาง
+
+url
+
+. convert sting
+
+1.about connect mongodb
+1.1 crate colecttion
+
+
+2.about diyplay url by fask
+3.about edit
+4.post upload folder
+5.delete
+6.put
+
+4.1stroge information
+
+.midleware = ตัวกลาง fetc อนุญาติ การเข้า url ส่งรับ
+
+.route  เส้นทาง Endpoint สำหรับดึงข้อมูล
+
+.express = ตัวคอย แปลงภาพ ที่เก็บ แล้วส่ง แสดง หน้า chroem หรือโหลดไฟล์ใส่
+
+.db เป็นตัวเชื่อม
+
+.db.mongodb เป็นตัวจัดการข้อมูลmongoDB
+
+.stoge เป็นตัวกำหนดการเก็บ ไฟล์อัพโหลด ลงในโฟล์เดอร์

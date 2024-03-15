@@ -1,0 +1,36 @@
+.Click {
+    /* สีที่ต้องการเมื่อไม่ hover */
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+
+  }
+  
+
+
+  .image-container.hovered {
+    background-color: blue !important;
+    
+  }
+
+  .image-container.clicked {
+    background-color: red; /* สีที่ต้องการเมื่อคลิก */
+  }
+
+  .image-container{
+    padding: 10px;
+    border: 0.1px solid rgb(194, 194, 194);
+
+    display: flex;
+
+    align-items: center;
+
+  }
+
+  .edit-button{
+    margin-top: 10px; /* เพิ่ม margin เพื่อสร้างระยะห่างระหว่างรูปภาพและปุ่ม */
+    
+    margin-left: auto; /* ให้ .edit-button อยู่ทางขวาสุด */
+
+  }
+
+  

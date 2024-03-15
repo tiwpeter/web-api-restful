@@ -1,0 +1,32 @@
+/* ContentBroder.css */
+
+.Navbar {
+    /* Your existing styles for the Navbar */
+    background-color: #ffffff; /* Default background color */
+    color: #000000; /* Default text color */
+  }
+  
+  .dark-mode {
+    background-color: #333333; /* Dark mode background color */
+    color: #ffffff; /* Dark mode text color */
+  }
+  
+  .item-search {
+    /* Your existing styles for the search icon */
+    color: #000000; /* Default search icon color */
+  }
+  
+  .dark-mode .item-search {
+    color: #ffffff; /* Dark mode search icon color */
+  }
+  
+  /* NavbarText.css */
+  
+  .div {
+    /* Your existing styles for the "Dark" div */
+    color: #000000; /* Default text color */
+  }
+  
+  .dark-mode-text {
+    color: #ffffff; /* Dark mode text color */
+  }
